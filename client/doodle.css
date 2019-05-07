@@ -1,0 +1,111 @@
+body {
+    font-family: garamond-premier-pro-display-1;
+    font-style: italic;
+    font-weight: 300;
+    padding: 15px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-size: 100%;
+    background: #FFF
+}
+
+
+
+header,
+navbar, 
+tools,
+palette {
+    display: block
+}
+
+::selection {
+    background: #252525;
+    color: #fff
+}
+
+a,
+body {
+    color: #252525
+}
+
+
+
+h2 {
+    font-size: 2.375em
+}
+
+
+
+#content h1,
+#navbar li {
+    text-transform: uppercase
+}
+
+
+
+
+#canvas {
+  border: 1px #211111 solid;
+  border-radius: 5px;
+}
+
+.btn {
+  margin-bottom: 2px;
+ 
+  height: 30px;
+  width: 100px;
+}
+
+.colorBox {
+  border: 1px #252525 solid;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+}
+
+
+
+.black {
+  background-color: #000000;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.gray {
+  background-color: #708090;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.orange {
+  background-color: #ffa500;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.green {
+  background-color: #008000;
+}
+
+.skyblue {
+  background-color: #e6f2ff;
+}
+
+.blue {
+  background-color: #003399;
+}
+
+.purple {
+  background-color: #800080;
+}
+

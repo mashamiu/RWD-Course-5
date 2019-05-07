@@ -1,0 +1,43 @@
+<template name="doodlewall">
+
+ <div class="container">
+    
+     <div id="content">
+     <h3>  
+     Pick a brush, a splash of color and doodle around!</h3>
+	
+	</div><!--#/content-->
+</div><!--#/container-->
+
+<div class="container">
+    <div class="row" id="wallRow">
+     
+      <div class=" col-xs-12" id="canvasCol">
+        {{> yield "canvas"}}
+      </div>
+      </div>
+          
+  </div>
+
+  
+  <div class="container">   
+       <div class="row" id="toolsRow">
+       <div class="col-lg-12" id="palette">
+        {{> yield "palette"}}
+      </div>
+      </div>
+    
+ </div>
+ 
+  <div class="container">
+       <div class="row" id="customCol">
+       <div class="col-lg-12" id="customColor">
+        {{> yield "customColor"}}
+      </div>
+      </div>
+    
+    </div>
+
+
+ 
+</template>

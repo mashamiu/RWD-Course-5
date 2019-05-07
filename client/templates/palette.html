@@ -1,0 +1,83 @@
+<template name="palette">
+  <div id="palette">
+    
+    <hr>
+    
+<div class="row">
+      <!-- tools --> 
+       
+<div class="col-md-4">
+        
+    <button class='export btn' data-toggle='modal' data-target='.export-modal'>Export</button>
+   			
+   			
+   <div class="modal fade export-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1>Export</h1>
+        </div>
+        <div class="modal-body">
+          <button class="btn btn-default btn-block" id="getSVG">Get SVG</button>
+          <button class="btn btn-default btn-block" id="clearSVG">Clear SVG</button>
+          <code id="exportBox"></code>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-block" data-dismiss="modal">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+		<button class='clear btn btn-default btn-sm'>Clear</button>
+
+</div>
+<div class="col-md-4">
+        <button class='brush-small btn btn-default btn-sm'>Small Brush</button>
+        <button class='brush-medium btn btn-default btn-sm'>Medium Brush</button>
+         <button class='brush-large btn btn-default btn-sm'>Large Brush</button>
+</div>      
+<div class="col-md-4">
+       
+        <button class='thinner btn btn-default btn-sm'>Thinner</button>
+        <button class='thicker btn btn-default btn-sm'>Thicker</button>
+        
+</div>
+ </div>
+ 
+ 
+ 
+      
+    <div class="row">
+      <!-- color buttons --> 
+         <button class='red colorBox'>Red</button>
+         
+         <button class='orange colorBox'>Orange</button>
+         
+         <button class='yellow colorBox'>Yellow</button>
+         
+         <button class='green colorBox'>Green</button>
+         
+         <button class='skyblue colorBox'>Skyblue</button>
+         
+         <button class='blue colorBox'>Blue</button>
+         
+         <button class='purple colorBox'>Purple</button>
+         
+        <button class='black colorBox'>Black</button>
+        
+        <button class='slategray colorBox'>Gray</button>
+        
+        <button class='white colorBox'>White</button>
+        
+        <input type="color" class="btn btn-default btn-sm" name="customColor" id="customColor" />
+         
+    </div>
+    
+</div>
+
+
+
+</template>
