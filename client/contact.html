@@ -1,0 +1,58 @@
+<template name="contact">
+  <div class="container">
+     <div id="content">
+			<div class="article">
+				<h1>Contact</h1>
+				<hr>
+				<p>If you think you have a project for me or just want to say hello then get in touch and I'll get back to you as soon as I can.</p>
+				<hr>
+				<div class="form">
+					<form id="form1_contact" action="/contact.php" method="post">
+	
+	
+
+	<div>
+		<label for="form1_name">Name</label>
+		<input id="form1_name" name="name" type="text" required="required">
+		
+	</div>
+
+	<div>
+		<label for="form1_email">Email</label>
+		<input id="form1_email" name="email" type="email" required="required">
+		
+		
+	</div>
+
+	<div>
+		<label for="form1_message">Message</label>
+		<textarea id="form1_message" name="message" cols="30" rows="4" required="required"></textarea>
+		
+	</div>
+	<div>
+		<input id="form1_newsletter" name="newsletter" value="mailinglist" type="checkbox">
+		<label class="mlist" for="form1_newsletter">Join my mailing list </label>
+		
+		
+	</div>
+
+	<div>
+		<input id="form1_submit" name="submit" value="Send" type="submit"><input type="hidden" name="cms-form" value="Y29udGFjdDpwZXJjaF9mb3JtczovdGVtcGxhdGVzL2NvbnRlbnQvZm9ybS5odG1sOjE0NzA3NTc3Mzg=">
+	</div>
+
+	
+</form>	
+				</div>
+				<div class="column two_col">
+					
+				<p>If you're not a big fan of contact forms, you can either…</p><hr><p>Give me a call on <strong>+1 191 000 00 01</strong></p><hr><p>or <a href="mailto:mashamiu@gmail.com">drop me an email.</a></p>
+					</div>		
+					
+			</div>
+			
+			
+		</div>
+		
+	</div>
+
+</template>
